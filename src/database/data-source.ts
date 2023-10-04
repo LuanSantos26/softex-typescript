@@ -3,8 +3,9 @@ import { DataSource } from "typeorm"
 export const AppDataSource = new DataSource({
     type: "postgres",
     host: "localhost",
-    port: 3306,
-    username: "luan",
-    password: "luan123",
-    database: "api-softex",
+    port: 5432,
+    username: "luanzin",
+    password: "luan2624",
+    database: "api-softex3",
 })
+
